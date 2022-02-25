@@ -1,0 +1,27 @@
+.carousel-inner img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.heading h2{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    text-decoration: underline black double;
+    text-underline-offset: 10px;
+}
+.card-group > .card{
+    width: 250px;
+    flex: initial;
+    margin: 20px;
+}
+footer h4{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+}
+@media (max-width: 430px){
+    .carousel-inner img{
+        height: 200px;
+    }
+}
